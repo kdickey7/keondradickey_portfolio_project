@@ -7,10 +7,11 @@ body {
   margin: 100px auto 0px auto;
   }
 
-  nav{
+  nav li{
     max-width: 80%;
     margin: 0px auto;
   }
+
   .header {
     margin-top: 0;
   }
