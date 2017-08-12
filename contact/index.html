@@ -20,20 +20,32 @@
   </nav>
 
   <div class="container">
-    <form class="" action="index.html" method="post">
+    <form class="" action=form action="https://formspree.io/kdickey08@gmail.com"
+      method="post">
+    <fieldset>
+      <legend>About</legend>
       <input type="text" name="firstname" value="First Name" size="100" autofocus>
       <input type="text" name="lastname" value="Last Name" size="100">
       <input type="text" name="userEmail" placeholder="your.email@example.com">
+    </fieldset>
 
+  <fieldset>
+    <legend>Message</legend>
       <label for="What's this message about?">
         <input type="radio" name="subject" value="Professional" checked><span>I'd like to hire you!</span>
         <input type="radio" name="subject" value="personal" checked><span>Personal message</span>
         <input type="radio" name="subject" value="other" checked><span>Don't know/something else</span>
       </label>
+  </fieldset>
 
+  <fieldset>
+    <legend>Newsletter</legend>
       <input type="checkbox" name="optin" value="trusting" checked>Subscribe me to your newsletter!
       <input type="checkbox" name="optout" value="skeptical" disabled>Cheeky checkbox...
+</fieldset>
 
+<fieldset>
+    <legend>Marketing</legend>
       <label for="marketing">How did you hear about me?</label>
        <select name="marketing">
          <optgroup label="Online">
@@ -49,10 +61,11 @@
          </optgroup>
          <option value="other">Other</option>
        </select>
+</fieldset>
 
        <textarea name="user_message" rows="8" cols="40"></textarea>
        <input type="submit">
-       
+
     </form>
 
   </div>
