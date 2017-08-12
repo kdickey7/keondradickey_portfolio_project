@@ -7,9 +7,15 @@ body {
   margin: 100px auto 0px auto;
   }
 
+  nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  }
+
   nav li{
-    max-width: 80%;
-    margin: 0px auto;
+    display: inline;
+    list-style-type: none;
   }
 
   .header {
