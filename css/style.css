@@ -1,43 +1,56 @@
+header {
+  margin-top: 20em;
+}
+
 body {
   background-color: #558C89;
   color: #D9853B;
-
-  .container {
-  max-width: 80%;
-  margin: 100px auto 0px auto;
-  }
+}
 
   nav {
   position: fixed;
   top: 0;
   left: 0;
+  height: 2.5em;
+  width: 100vw;
+  background-color: grey;
   }
 
-  nav li{
+  nav>ul.ul-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  nav li {
     display: inline;
     list-style-type: none;
   }
 
-  .header {
-    margin-top: 0;
-  }
-  .content {
-    background-color: #74AFAD;
-    color: #ECECEA;
-    padding: 75px;
-    border: 3px dashed #ECECEA;
-  }
-
-  .footer{
-    font-size: .8em;
+.profilepicture{
+  margin-top: 100px;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%
+}
+  .container {
+    margin-top: : 100px;
+    overflow: auto;
   }
 
-  .highlight{
-    font-weight: bold;
-    font-style: italic;
+  .blogcontent {
+    float: left;
+    width: 75%;
+  }
+
+  .sidebar {
+    float:left;
+    width: 25%;
   }
 
 
 div>p {
-  font-size: 2em;
+  font-size: 1em;
 }
