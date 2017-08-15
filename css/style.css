@@ -1,10 +1,10 @@
 header {
-  margin-top: 20em;
+  margin-top: 10em;
 }
 
 body {
-  background-color: #558C89;
-  color: #D9853B;
+  background-color: #EDC7B7;
+  color: #123C69;
 }
 
   nav {
@@ -13,7 +13,7 @@ body {
   left: 0;
   height: 2.5em;
   width: 100vw;
-  background-color: grey;
+  background-color: #BAB2B5;
   }
 
   nav>ul.ul-container {
@@ -33,21 +33,22 @@ body {
   margin-top: 100px;
   height: 100px;
   width: 100px;
-  border-radius: 50%
+  border-radius: 50%;
 }
+
   .container {
     margin-top: : 100px;
     overflow: auto;
   }
 
   .blogcontent {
-    float: left;
-    width: 75%;
+    /*float: left;*/
+    /*width: 75%;*/
   }
 
   .sidebar {
-    float:left;
-    width: 25%;
+    /*float:left;*/
+    /*width: 25%;*/
   }
 
 
