@@ -40,6 +40,9 @@ body {
     margin-top: : 100px;
     overflow: auto;
   }
+.content{
+  
+}
 
   .blogcontent {
     /*float: left;*/
@@ -51,6 +54,14 @@ body {
     /*width: 25%;*/
   }
 
+.headerfooter {
+  margin-top: 200px;
+  }
+
+#greeting {
+  background-color: pink;
+  color: blue
+}
 
 div>p {
   font-size: 1em;
