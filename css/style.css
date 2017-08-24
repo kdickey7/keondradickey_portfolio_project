@@ -41,7 +41,7 @@ body {
     overflow: auto;
   }
 .content{
-  
+
 }
 
   .blogcontent {
@@ -65,4 +65,9 @@ body {
 
 div>p {
   font-size: 1em;
+}
+
+.highlighted {
+  font-weight: bolder;
+  color: skyblue;
 }
