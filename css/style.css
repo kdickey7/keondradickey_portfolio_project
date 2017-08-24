@@ -71,3 +71,12 @@ div>p {
   font-weight: bolder;
   color: skyblue;
 }
+
+.loser{
+  background-color: red;
+}
+
+
+.winner{
+  background-color: green;
+}
