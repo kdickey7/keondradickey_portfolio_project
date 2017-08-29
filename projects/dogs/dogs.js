@@ -55,6 +55,6 @@ console.log('dogName1', dogName1)
 // 4. Using jQuery, place the pictures of each dog on a web page with its name underneath.
 
 puppyObject.forEach(function(puppy) {
-  var puppyDiv = "<div><img src=" + puppy.piture + "><p>" + puppy.name + "</p></div>"
+  var puppyDiv = "<div><img src=" + puppy.picture + "><p>" + puppy.name + "</p></div>"
   $('.doggie-div').append(puppyDiv)
 })
